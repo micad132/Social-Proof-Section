@@ -55,7 +55,8 @@ body{
 
                 display: flex;
                 flex-direction: column;
-                justify-content: space-evenly;
+                gap: 1rem;
+                
                 
                 &__div{
                     background-color: #e4dede;
@@ -177,9 +178,9 @@ body{
         
         padding: 0;
         height: 100vh;
-    }
+    
     .wrapper{
-        border: 2px solid red;
+        
         width: 90%;
         height: 90%;
         margin: 12rem auto;
@@ -195,27 +196,28 @@ body{
             
             .description{
                 flex-basis: 40%;
-                border: 2px solid pink;
+                
 
                 .main{
 
-                    text-align: left !important;
+                    text-align: left;
                     
                 }
 
 
                 .text2{
-                    margin-top: 0.2rem !important;
-                    text-align: left !important;
+                    margin-top: 0.2rem;
+                    text-align: left;
                 }
             }
 
             .ratings{
-                border: 2px solid blue;
+                
                 flex-basis: 60%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
+                gap: 0;
                
 
                 .ratings__div{
@@ -259,8 +261,8 @@ body{
                 
 
                 // margin-top: 1rem !important;
-                margin-top: 2 !important;
-                padding: 0 !important;
+                margin-top: 2;
+                padding: 0;
                 flex-basis: 32%;
                 height: 30%;
                 &:nth-child(2)
@@ -278,5 +280,5 @@ body{
     }
 }
 
-
+}
 
