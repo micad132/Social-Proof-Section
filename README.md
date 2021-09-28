@@ -1,6 +1,6 @@
 # Social-Proof-Section
 
-A quick/simple project from Front End Mentor
+A quick and simple project from Front End Mentor
 
 
 Live preview here:
